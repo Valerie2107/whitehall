@@ -95,6 +95,7 @@
             font-size: 14px;
             width: 70%;
             font-weight: bold;
+            font-family: 'Libre Baskerville', serif;
         }
         a{
             color: #fff;
@@ -104,9 +105,44 @@
 
 /******** COLLECTIONS *******/
 .collections{
-    margin-top: 100px;
+    margin: 100px 0;
 }
+.tailored{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.what_to_do{
+    padding-top: 20px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h4{
+        font-size: 30px;
+        color: #000;
+        margin-bottom: 5px;
+        font-family:'Libre Baskerville', serif;
+    }
+    p{
+        font-family:'Libre Baskerville', serif;
+        width: 80%;
+        font-size: 12px;
+        margin-bottom: 15px;
 
+    }
+    a{
+        padding: 15px ;
+        color: #000;
+    }
+}
 
 
 
@@ -114,5 +150,33 @@
 .grape_vine{
     display: flex;
     flex-direction: column;
+    .bouton{
+        margin: 0 auto;
+        color: #fff;
+        text-wrap: nowrap;
+    }
+}
+.wrapper_grape_vine{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 10px 0 35px 0;
+
+    a{
+        color: #96958a;
+    }
+    img{
+        width: 100%;
+    }
+    h4{
+        color: #000;
+        font-size: 15px;
+        margin-bottom: 5px;
+        font-family:'Libre Baskerville', serif;
+        text-align: left;
+    }
+    p{
+        font-family:'Libre Baskerville', serif;
+    }
     
 }
