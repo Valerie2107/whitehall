@@ -1,3 +1,54 @@
 .homepage__padding{
     padding: 0 150px;
 }
+
+/******** TITLE *******/
+.title{
+    position: relative;
+}
+.title img{
+    width: 100vw;
+}
+.title__display{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -55%;
+    text-align: center;
+    text-transform: uppercase;
+    strong{
+        font-size: 20px;
+    }
+    h2{
+        margin: 0;
+        font-size: 45px;
+    }
+}
+
+/******** EXPLORE *******/
+.explore{
+    h3, h4{
+        text-align: center;
+    }
+    h3{
+        font-size: 35px;
+        margin: 8px;
+
+    }
+    h4{
+        color: gray;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+.explore__presentation{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.duo_img-title{
+    img{
+        width: 100%;
+    }
+}
