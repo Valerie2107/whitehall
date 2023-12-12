@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
     <script src="js/main.js" defer></script>
-    <title>Exercice WhiteHall</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <title>Exercice WhiteHall - bottles</title>
 
         <!-- 
         instructions pour l'exercice
@@ -14,6 +15,7 @@
         https://whitehallvineyard.co.uk/
 
         2 pages à faire 
+        pas de responsive
 
         - ne pas faire les awards et les petites gommettes (carousel)
         - ne pas faire le The ROSÉ collection swipper inclus
@@ -36,27 +38,34 @@
     <header>
         <!-- header en position fixed -->
         <div class="adds">
-            <div class="delivery"></div>
-            <div class="newsletter"></div>
+            <div>Free delivery on all orders over £100</div>
+            <div>Sign up to our newsletter for £5 off your first order</div>
         </div>
         <div class="search_bar">
-            <form action=""></form>
-            <img src="" alt="">
+            <form action="">
+                <iconify-icon icon="ph:magnifying-glass" width="20" class="loupe"></iconify-icon>
+                <input type="text" placeholder="Search...">
+            </form>
+            <a href="index.html"><img src="img/whitehall_logo.webp" alt="whitehall_logo"></a>
             <div class="connection">
-                <div class="connect"></div>
-                <div class="favorites"></div>
-                <div class="basket"></div>
+                <a href="#"><iconify-icon icon="octicon:person-24" width="25"></iconify-icon></a>
+                <a href="#"><iconify-icon icon="clarity:heart-line" width="25"></iconify-icon></a>
+                <a href="#"><iconify-icon icon="material-symbols-light:shopping-bag-outline-sharp" width="30"></iconify-icon></a>
             </div>
         </div>
-        <nav>
-            <a href="single_bottles.html">Online Shop</a>
-            <a href="single_bottles.html">Whitehall Vineyard</a>
-            <a href="single_bottles.html">Stockists</a>
-            <a href="single_bottles.html">News</a>
-        </nav>
+        <div class="wrapper_nav_header">
+            <nav class="nav_header">
+                <a href="single_bottles.html">Online Shop</a>
+                <a href="single_bottles.html">Whitehall Vineyard</a>
+                <a href="single_bottles.html">Stockists</a>
+                <a href="single_bottles.html">News</a>
+            </nav>
+        </div>
     </header>
 
+   <main class="single_bottles">
 
+   </main>
 
     <footer>
         <!-- en 4 colonnes -->

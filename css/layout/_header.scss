@@ -1,0 +1,49 @@
+/*nav du header dans le fichier _nav*/
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.adds{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    color: #fff;
+    font-weight: 400;
+    background-color: #96958a;
+}
+
+.search_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    border-bottom: 1px solid #96958a;
+    background-color: #fff;
+    form{
+        border: 1px solid #96958a;
+        padding: 5px 40px 5px 5px;
+        width: 250px;
+        .loupe{
+            position: relative;
+            top: 4px;
+            left: 5px;
+            padding-right: 5px;
+        }
+        input{
+            border: none;
+            outline: none;
+        }
+    }
+    .connection{
+        display: flex;
+        justify-content: flex-end;
+        width: 250px;
+        a{
+            padding: 0 6px;
+            color: #000;
+        }
+    }
+}

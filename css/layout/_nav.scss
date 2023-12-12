@@ -1,0 +1,22 @@
+.wrapper_nav_header{
+    background-color: #fff;
+    width: 100%;
+}
+.nav_header{
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    a{
+        
+        text-decoration: none;
+        color: #000;
+    }
+}
