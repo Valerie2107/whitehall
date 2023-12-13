@@ -1,4 +1,67 @@
+.single_bottles__padding{
+    padding: 0 150px;
+}
+
+/****************GRID**************/
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.illustration{
+    grid-column: span 2;
+    grid-row: span 2;
+    background: url(../../img/NETHERCOTE-HILL-2019-CHRISTMAS.webp) center/cover;
+}
+
 .bottles{
-    display: block;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    flex-direction: column;
+}
+.bottles__item{
+    position: relative;
+    &:hover .quick_view{
+        display: block;
+    }
+    &:hover .visible{
+        display: none;
+    }
+    .invisible{
+        display: none;
+        width: 100%;
+    }
+    &:hover .invisible{
+        display: block;
+    }
+    .quick_view{
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        translate: -50% -50%;
+        color: #fff;
+    }
+    span{
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        translate: -50% -50%;
+        background-color: #fff;
+        padding: 5px 5px 0 5px;
+        border-radius: 90%;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.name-price{
+    display: flex;
+    justify-content: space-between;
+    a{
+        color: #000;
+    }
 }
