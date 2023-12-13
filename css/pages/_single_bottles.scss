@@ -1,6 +1,27 @@
 .single_bottles__padding{
     padding: 0 150px;
 }
+/*********INTRODUCTION*********/
+.introduction{
+    small{
+        font-size: 90%;
+    }
+}
+.bottles_title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 55px;
+    }
+    img{
+        position: absolute;
+        width: 5vw;
+        top: 15px;
+        right: 440px;
+    }
+}
 
 /****************GRID**************/
 .container{
@@ -15,6 +36,9 @@
     grid-column: span 2;
     grid-row: span 2;
     background: url(../../img/NETHERCOTE-HILL-2019-CHRISTMAS.webp) center/cover;
+    &:hover{
+        transform: scale(110%);   /*à corriger*/
+    }
 }
 
 .bottles{
@@ -55,6 +79,7 @@
     }
     img{
         width: 100%;
+        aspect-ratio: 1/1;  /*est-ce vraiment ok de faire ainsi? */
     }
 }
 
