@@ -1,0 +1,18 @@
+.search_bar{
+    form{
+        border: 1px solid #96958a;
+        padding: 5px 40px 5px 5px;
+        width: 250px;
+        .loupe{
+            position: relative;
+            top: 4px;
+            left: 5px;
+            padding-right: 5px;
+        }
+        input{
+            border: none;
+            outline: none;
+            background-color: #fafafa;
+        }
+    }
+}
