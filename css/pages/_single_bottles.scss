@@ -13,8 +13,19 @@
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
-    h2{
-        font-size: 55px;
+    /* voir pourquoi mon before ne fonctionne pas*/
+    // &::before{
+    //     background: url(../../img/logo.webp);
+    //     width: 92px;
+    //     height: 93px;
+    // }
+    h3{
+        font-size: 35px;
+        // &::before{
+        //     background: url(../../img/logo.webp);
+        //     height: 100px;
+        //     width: 100px;
+        // }
     }
     p{
         font-family:'Libre Baskerville', serif;
@@ -43,14 +54,48 @@
 
 .illustration{
     position: relative;
-    border: 2px solid cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
     grid-column: span 2;
     grid-row: span 2;
+    color: #fff;
+    .illustration__join_us{
+        z-index: 1;
+        margin: 45px 60px;
+        h4{
+            color: #fff;
+            font-size: 45px;
+            margin: 15px 0;
+            text-transform: none;
+            font-weight: normal;
+        }
+        .bouton{
+            background-color: #fff;
+            padding: 16px 36px;
+            a{
+                color: #000;
+                font-weight: bold;
+                font-size: 15px;
+            }
+        }
+    }
 }
 .illustration__img{
     position: absolute;
     height: 100%;
-    object-fit: cover;
+    overflow: hidden;
+    &:hover img{
+        transform: scale(110%);
+    }
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        transition:.3s all ease-in-out;
+    }
 }
 
 
@@ -144,6 +189,9 @@
         content: "";
         position: absolute;
         background: url(../../img/logo.webp);
+        width: 92px;
+        height: 93px;
+        right: 271px;
     }
     h5{
         font-family: "Libre Baskerville",serif;
@@ -168,6 +216,7 @@
     a{
         border: 1px solid #fff;
         padding: 15px 70px;
+        font-size: 12px;
         color: #fff;
     }
 }

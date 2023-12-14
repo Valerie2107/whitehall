@@ -1,0 +1,18 @@
+// d'abord le copyright car quasi pas de css, le "footer" est juste en dessous 
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #96958a;
+    color: #fff;
+    height: 4vh;
+    a{
+        color: #fff;
+        padding-left: 2px;
+    }
+}
+
+/************FOOTER**********/
+footer{
+    background-color: #fff;
+}
