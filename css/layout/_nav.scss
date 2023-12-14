@@ -2,7 +2,9 @@
     background-color: #fff;
     width: 100%;
     border-bottom: 1px solid #96958a;
-
+}
+.wrapper_nav_header{
+    background-color: #fafafa;
 }
 .nav_header{
     width: 600px;
@@ -16,9 +18,4 @@
     line-height: 15px;
     text-transform: uppercase;
     padding: 15px 0;
-    a{
-        
-        text-decoration: none;
-        color: #000;
-    }
 }
