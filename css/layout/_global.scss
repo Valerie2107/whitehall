@@ -25,3 +25,19 @@ a{
   text-decoration: none;
   color: #000;
 }
+
+/* effet de scale*/
+.scale__img {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  img{
+    transition: 0.3 all ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+}
+.scale__img:hover img {
+    transform: scale(110%);
+}
