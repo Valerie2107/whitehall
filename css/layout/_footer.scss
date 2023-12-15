@@ -13,6 +13,21 @@
 }
 
 /************FOOTER**********/
+// les navs du footer sont dans nav par facilite et logique
 footer{
     background-color: #fff;
+}
+.wrapper_footer{
+    margin: 50px auto;
+    padding: 0 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 1.5fr;
+    gap: 20px;
+
+}
+.logo_footer{
+    width: 100%;
+    img{
+        width: 50%;
+    }
 }
